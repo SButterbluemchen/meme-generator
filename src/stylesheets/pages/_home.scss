@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.form {
+  display: grid;
+  grid-template-columns: 0.4fr 0.4fr;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  input {
+    padding: 1rem;
+    text-indent: 0.5rem;
+    border: 0.1rem solid darkgrey;
+    border-radius: 1rem;
+  }
+}
+
+.form-button {
+  grid-column: 1/ -1;
+  padding: 1rem;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+.mouseOver {
+  background: rgba(0, 0, 0, 0.795);
+}
+
+figure {
+  display: grid;
+  grid-column: 1/ -1;
+  justify-content: center;
+  .meme-img {
+    max-width: 100%;
+  }
+}
